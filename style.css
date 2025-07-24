@@ -1,0 +1,91 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex; 
+  justify-content: flex-end;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+nav img {
+  height: 80px;
+padding-left: 70px;
+
+}
+nav ul li:nth-child(2) a,
+nav ul li:nth-child(3) a {
+    color: gray;}
+    header{
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    .text-box{
+        max-width: 500px;
+        text-align: center;
+        padding-left: 150px;
+        padding-top: 200px;
+    }
+    header img{
+        width: 1200px;
+        height: 461px
+    }
+    .fresh{
+        color: tomato;
+    }
+    .gray{
+        color: gray;
+    }
+    header{
+        font-size: 20px;
+    }
+    .our-Plants{
+        text-align: center;
+        font-size: 30px;
+    }
+.our{
+    color: tomato;
+}
+.flower {
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+}
+
+.flower img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.flower{ width: 300px;
+
+}
+section{
+    font-size: x-large;
+}
+p:nth-of-type(2){
+    background-color: tomato;
+    height: 50px;
+    width: 270px;
+    color: white;
+    font-style: normal;
+    text-align: center;
+    padding-top: 15px;
+    font-size: medium;
+}
