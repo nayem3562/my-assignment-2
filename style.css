@@ -71,7 +71,6 @@ nav ul li:nth-child(3) a {
 .flower img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
 }
 .flower{ width: 300px;
 
@@ -88,4 +87,43 @@ p:nth-of-type(2){
     text-align: center;
     padding-top: 15px;
     font-size: medium;
+}
+.style {
+  display: flex;
+  align-items: flex-start; 
+  gap: 20px;               
+  padding: 20px;
+}
+
+.style img {
+  width: 400px;   
+  height: auto;
+}
+.second-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.text-part {
+  max-width: 600px;
+}
+
+.text-part h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.text-part ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.text-part ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+li{
+  padding: 20px;
 }
