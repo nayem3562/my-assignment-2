@@ -55,6 +55,7 @@ nav ul li:nth-child(3) a {
         font-size: 20px;
     }
     .our-Plants{
+      color: gray;
         text-align: center;
         font-size: 30px;
     }
@@ -126,4 +127,20 @@ p:nth-of-type(2){
 }
 li{
   padding: 20px;
+}
+.Latest{
+   text-align: center;
+}
+.color{
+  color: tomato;
+}
+.img{
+  background-image: url("deal-ana.png");
+  background-size: cover;
+  background-position: left;
+  width: 367px;
+  height: 200px;
+  border-radius: 10px;
+  
+
 }
