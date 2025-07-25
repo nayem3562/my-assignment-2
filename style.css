@@ -152,13 +152,10 @@ li{
   align-items: center;
   text-align: center;
 }
-
-
 .container a {
   color: white;
   font-size: larger;
 }
-
 {display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -219,3 +216,64 @@ width: 130ox;
 height: 20px;
 font-size: larger;
 }
+.container4{
+  background-image: url(news-letter-bg.png);
+  width: 1330px;
+  height: 530px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.container4 input{
+   width: 700px;
+  height: 35px; }
+
+.row{ width: 170px;
+  height: 35px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+.container5{
+  margin-left: 160px;
+  padding-top: 150px;
+}
+.container5 p{
+  color: gray;
+}
+.container5 a{
+display: grid;
+  grid-template-columns: repeat(2,auto);
+  gap: 32px 60px;
+  padding: 10px;
+  justify-content: center;  
+  text-decoration: none;
+}
+.footer{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  gap: 32px 60px;
+  padding: 10px;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: gray;
+}
+.row2{
+  float: right;
+  float: right;
+  margin-top: 0;
+  margin-right: 0;
+  display: block;
+}
+
+
+
+
+
