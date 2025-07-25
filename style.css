@@ -134,13 +134,88 @@ li{
 .color{
   color: tomato;
 }
-.img{
-  background-image: url("deal-ana.png");
-  background-size: cover;
-  background-position: left;
-  width: 367px;
-  height: 200px;
-  border-radius: 10px;
-  
 
+.container {
+  background-image: url("deal-zabo.png");
+  float: right;
+  width: 750px;
+  height: 380px;
+  color: white;
+  border-radius: 10px;
+  filter: brightness(90%);
+  margin-right: 80px;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.container a {
+  color: white;
+  font-size: larger;
+}
+
+{display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;
+  color: white;    
+  border-radius: 10px;  
+}
+  .container a{
+color: white;
+width: 130ox;
+height: 20px;
+font-size: larger;
+  }
+.container2{
+  background-image:url(deal-bloom.png);
+  width: 366px;
+  height: 180px;
+  margin-left: 120px;
+  margin-top: 65px;
+  border-radius: 10px;
+}
+.container3{
+  background-image: url(deal-ana.png);
+  width: 366px;
+  height: 180px;
+  margin-left: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.container2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  filter: brightness(90%);
+}
+.container3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  filter: brightness(90%);
+}
+.container2 a{
+  color: white;
+width: 130ox;
+height: 20px;
+font-size: larger;
+}
+.container3 a{
+  color: white;
+width: 130ox;
+height: 20px;
+font-size: larger;
 }
